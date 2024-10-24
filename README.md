@@ -43,7 +43,7 @@ Onde $n$ representa o número de tarefas, $Ci$ o custo de execucação e $Ti$ o 
 
 Com o conjunto de tarefas acima, é possível verificar que o teste de Liu and Layland falha, visto que U = $\frac{3}{5} + \frac{1}{8} + \frac{1}{10} = 0.825$ e $Ub = 3\left( 2^{\frac{1}{3}}-1 \right) = 0.779$. Assim, não é possível afirmar se o sistema é escalonável por RM.
 
-Pode-se utilizar o teste hiperbólico, dado por $\prod_{i=i}^{n}(Ui + 1) \le 2 $. Como $ \prod_{i=i}^{n}(Ui + 1) = 1.98$ para esse conjunto de tarefas, o sistema passa no teste hiperbólico e, portanto, pode-se concluir que ele é escalonável por RM.
+Pode-se utilizar o teste hiperbólico, dado por $\prod_{i=i}^{n}(Ui + 1) \le 2 $. Como $\prod_{i=i}^{n}(Ui + 1) = 1.98$ para esse conjunto de tarefas, o sistema passa no teste hiperbólico e, portanto, pode-se concluir que ele é escalonável por RM.
 
 Assim, ao executar o código em modo Debug e analisando as variáveis *task1Visualizer*, *task2Visualizer* e *task3Visualizer*, pode-se perceber que as tarefas são executadas exatamente como mostrado na seguinte figura:
 
